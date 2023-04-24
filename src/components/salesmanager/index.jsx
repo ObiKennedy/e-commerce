@@ -13,7 +13,7 @@ export default function SalesManager({Name}){
             </div>
             <div>
                 <div><img src="/"/></div>
-                <div>
+                <div className="name">
                     <h5>{Name}</h5>
                     <span>Sales Manager</span>
                 </div>
