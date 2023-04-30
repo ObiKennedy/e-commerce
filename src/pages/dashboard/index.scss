@@ -1,0 +1,32 @@
+.dashboard{
+    background: #ECECEC;
+    .info{
+        display: flex;
+        width: 100%;
+        gap: 30px;
+        padding: 20px;
+        margin: auto;
+        align-items: center;
+        >div{
+            background: #ffffff;
+            padding: 10px;
+            width: 20%;
+            border-radius: 20px;
+            display: flex;
+            text-align: start;
+            flex-direction: column;
+            h6{
+                margin: 2px;
+                font-family: monsterrat;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            p{
+                font-family: Monsterrat;
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 600;
+            }
+        }
+    }
+}

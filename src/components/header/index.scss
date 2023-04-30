@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    width: 79.1%;
+    background: transparent;
+    >div{
+        display: flex;
+        gap: 5px;
+        h2{
+            font-weight: 600;
+            font-size: 24px;
+            font-family: Monsterrat;
+            line-height: 29.26px;
+        }
+        input{
+            width: 40vw;
+            height: 16px;
+            padding: 20px;
+            border-radius: 30px;
+            border: none;
+            background: #ada1a1;
+        }
+        div{
+           color:#5C5C5C;
+           width: 50%;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+        }
+    }
+
+}
