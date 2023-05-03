@@ -40,7 +40,6 @@ const options = {
 
     return(
         <div className="dashboard">
-            <tableHead/>
             <Header name={'Dashboard'} user={'Abu'} position={'Salesmanager'}/>
             <div className="info">
                 <div>

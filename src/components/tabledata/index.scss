@@ -7,6 +7,11 @@
         display: flex;
         p{
             width: 270px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
         }
     }
     .instock{
@@ -16,6 +21,7 @@
         }
     }
     .outofstock{
+        background: #ffff;
         p:last-child{
             color: #03AC13;
         }
