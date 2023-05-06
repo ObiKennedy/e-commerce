@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {NavBar} from './components/navbar';
 import DashBoard from './pages/dashboard';
 import Analytics from './pages/analytics';
+import ALink from './pages/analytics01';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Routes>
             <Route path='/' element={<DashBoard/>}/>
             <Route path='/analytics' element={<Analytics/>}/>
-            <Route path='' element></Route>
+            <Route path='/Alink' element={<ALink/>}></Route>
           </Routes>
         </Router>
     </div>
