@@ -1,21 +1,16 @@
 import React from "react";
 import './index.scss'
 
-export default function TableData({inProduct, outProduct, inPrice, outPrice, inSold, outSold}){
+export default function TableData({name,price,sold,status}){
     return(
-        <div className="tabledata">
-            <div className="instock">
-                <p>{inProduct}</p>
-                <p>${inPrice}</p>
-                <p>{inSold}</p>
-                <p>In stock</p>
-            </div>
-            <div className="outofstock">
-                <p>{outProduct}</p>
-                <p>${outPrice}</p>
-                <p>{outSold}</p>
-                <p>Out of stock</p>
-            </div>
+        <div className={status ==='in stock'?'inStock':'outOfStock'}>
+            <p>
+                <img src="/"/>
+                {name}
+            </p>
+            <p>${price}</p>
+            <p>{sold}</p>
+            <p>{status}</p>
         </div>
     )
 }

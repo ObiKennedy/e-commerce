@@ -151,7 +151,8 @@ const options = {
             </div>
             <div>
                 <TableHead/>
-                <TableData inProduct={'Cetaphil Daily Facial Cleanser'} inPrice={20} inSold={300} outProduct={'Aveeno Calm + Restore Oat Gel... '} outPrice={30} outSold={200}></TableData>
+                <TableData name={'Cetaphil Daily Facial Cleanser'} price={'50'} sold={220} status={'out of stock'}/>
+                <TableData name={'Aveeno Calm + Restore Oat Gel... '} price={'90'} sold={500} status={'in stock'}/>
             </div>
             </div>
         </div>

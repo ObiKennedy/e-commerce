@@ -266,7 +266,8 @@ export default function Analytics(){
                 </div>
                 <div>
                     <TableHead/>
-                    <TableData inProduct={'Cetaphil Daily Facial Cleanser'} outProduct={'Aveeno Calm + Restore Oat Gel... '} inPrice={50} outPrice={90} inSold={200} outSold={300}/>
+                    <TableData name={'Cetaphil Daily Facial Cleanser'} price={'50'} sold={220} status={'out of stock'}/>
+                    <TableData name={'Aveeno Calm + Restore Oat Gel... '} price={'90'} sold={500} status={'in stock'}/>
                 </div>
             </div>
         </div>
