@@ -5,6 +5,7 @@ import {NavBar} from './components/navbar';
 import DashBoard from './pages/dashboard';
 import Analytics from './pages/analytics';
 import ALink from './pages/analytics01';
+import Orders from './pages/orders';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/' element={<DashBoard/>}/>
             <Route path='/analytics' element={<Analytics/>}/>
             <Route path='/Alink' element={<ALink/>}></Route>
+            <Route path='/orders' element={<Orders/>}></Route>
           </Routes>
         </Router>
     </div>
