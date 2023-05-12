@@ -1,0 +1,92 @@
+.addproducts{
+    padding: 20px;
+    background: #ECECEC;
+    >div:nth-child(2){
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px;
+        >span{
+            background: #b1adad;
+            border-radius: 10px;
+            padding: 22px;
+            cursor: pointer;
+        }
+        >input{
+            border-bottom: 1px dashed #A9A9A9;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            background: #a9a9a900;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #A9A9A9;
+        }
+    }
+    >div:nth-child(3){
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        >div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            >div{
+                display: flex;
+                gap: 20px;
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    >label{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 16px;
+                        color: #5C5C5C;
+                    }
+                    >input{
+                        width: 25vw;
+                        height: 46px;
+                        background: #FFFFFF;
+                        border-radius: 10px;
+                        border: none;
+                        padding: 20px;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 15px
+                    }
+                }
+            }
+            .description{
+                display: flex;
+                flex-direction: column;
+                >label{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                }  
+                >input{
+                    width: 56vw;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    border: none;
+                    height: 20vw;
+                    border-radius: 10px;
+                }                 
+            }
+        }
+    }
+}

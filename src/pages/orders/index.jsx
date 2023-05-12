@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss"
 import Header from "../../components/header";
 import Status from "../../components/status";
+import { Link } from "react-router-dom";
 
 export default function Orders(){
     return(
@@ -37,44 +38,30 @@ export default function Orders(){
             </div>
             <div className="set">
                 <div>
-                    <div>
-                        <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="5" cy="5.58337" r="5" fill="#03AC13"/>
-                        </svg>
-                        <div>Successful</div>
-                    </div>
-                    <div>35 orders</div>
+                    <p>Orders</p>
+                    <input type="text" placeholder="Search order..."/>
+                </div>
+                <div className="topLinks">
+                    <p><Link to={''}>All</Link></p>
+                    <p><Link to={''}>Successful</Link></p>
+                    <p><Link to={''}>Shipped</Link></p>
+                    <p><Link to={''}>Cancelled</Link></p>
+                    <p><Link to={''}>Refunded</Link></p>
                 </div>
                 <div>
-                    <div>
-                        <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="5" cy="5.58337" r="5" fill="#FFDB58"/>
-                        </svg>
-                        <div>Pending</div>
-                    </div>
-                    <div>10 orders</div>
-                </div>
-                <div>
-                    <div>
-                        <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="5" cy="5.58337" r="5" fill="#DF0000"/>
-                        </svg>
-                        <div>Cancelled</div>
-                    </div>
-                    <div>5 orders</div>
-                </div>
-                <div>
-                    <div>
-                        <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="5" cy="5.58337" r="5" fill="#5C5C5C"/>
-                        </svg>
-                        <div>Refunded</div>
-                    </div>
-                    <div>2 orders</div>
-                </div>
-            </div>
-            <div>
-                <Status name={'kyle Coleman'} stats={'refunded'}></Status>
+                   <div>
+                        <p>Shipping ID</p>
+                        <p>Customer Name</p>
+                        <p>Status</p>
+                        <p>Date</p>
+                        <p>Method</p>
+                        <p>Price</p>
+                        <p>Action</p>
+                   </div>
+                   <div>
+                        <Status name={'Samantha Johnson'} stats={'deliverred'} shipId={'KJD-223'} date={'22 feb,2022'} price={'210.00'} method={'*****9067'}/> 
+                   </div>
+                </div>  
             </div>
         </div>
     )

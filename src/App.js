@@ -6,6 +6,9 @@ import DashBoard from './pages/dashboard';
 import Analytics from './pages/analytics';
 import ALink from './pages/analytics01';
 import Orders from './pages/orders';
+import Product from './pages/products';
+import Categories from './pages/product/categories';
+import AddProduct from './pages/prodct/add';
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
           <Routes>
             <Route path='/' element={<DashBoard/>}/>
             <Route path='/analytics' element={<Analytics/>}/>
-            <Route path='/Alink' element={<ALink/>}></Route>
-            <Route path='/orders' element={<Orders/>}></Route>
+            <Route path='/Alink' element={<ALink/>}/>
+            <Route path='/orders' element={<Orders/>}/>
+            <Route path='/product' element={<Product/>}/>
+            <Route path='/categories' element={<Categories/>}/>
+            <Route path='/addproduct' element={<AddProduct/>}/>
           </Routes>
         </Router>
     </div>

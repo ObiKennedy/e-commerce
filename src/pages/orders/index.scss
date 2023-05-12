@@ -19,8 +19,8 @@
                 line-height: 20px;
         }
         >div:last-child{      
-            background: #231F20;
-            border-radius: 36px;
+            background: #5542F6;
+            border-radius: 10px;
             display: flex;
             padding: 10px 17px;
             gap: 10px;
@@ -32,35 +32,67 @@
         }
     }
     .set{
-        display: flex;
-        //gap: 10px;
         justify-content: space-between;
         margin: 10px 0;
-        >div{
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 20px;
+        >div:first-child{
             display: flex;
-            width: auto;
-            padding: 20px;
-            background: #F5F5F5;
-            border-radius: 45px;
-            gap: 20px;
-            >div:first-child{
-                display: flex;
-                gap: 10px;
-                >div{
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 17px;
-                }
+            justify-content: space-between;
+            >p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px; 
             }
-            >div:last-child{
+            >input{
+                width: 189px;
+                height: 34px;
+                background: #EDEDED;
+                border-radius: 21.9876px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 9.52795px;
+                line-height: 14px;
+                color: #5C5C5C;
+                padding: 0 20px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                border: none;
+            }
+        }
+        .topLinks{
+            display: flex;
+            gap: 20px;
+            a{
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 12px;
-                line-height: 15px;
+                font-size: 13px;
+                line-height: 16px;
+                text-decoration: none;
+                color: #A9A9A9;
+            }
+        }
+        >div:last-child{
+            >div:first-child{
+                display: flex;
+                justify-content: space-between;
+                >p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 16px;
+                    width: 120px;
+                    text-align: start;
+                }
             }
         }
     }
+
 }

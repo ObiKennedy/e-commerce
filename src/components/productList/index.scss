@@ -1,0 +1,17 @@
+.prodlist{
+    display: flex;
+    justify-content: space-between;
+    >p{
+        width: 120px;
+        text-align: start;
+    }
+    >p:nth-child(2){
+        width: 300px;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        >span:first-child{
+            width: 10px;
+        }
+    }
+}
