@@ -1,0 +1,84 @@
+.operation{
+    padding: 20px;
+    background: #ECECEC;
+    .buttons{
+        display: flex;
+        padding: 20px;
+        background: #FFFF;
+        width: 15%;
+        justify-content: space-between;
+        border-radius: 10px;
+        >a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #0D0D0D;
+            padding: 10px;
+            width: 50%;
+            text-decoration: none;
+        }
+        .active{
+            background: #E5F6F9;
+            border-radius: 10px;
+            color: #5542F6;
+            border-radius: 10px;
+        }
+    }
+    .table{
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px 0;
+        >div:first-child{
+            display: flex;
+            justify-content: space-between;
+            h3{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            input{
+                width: 189px;
+                height: 34px;
+                background: #EDEDED;
+                border-radius: 21.9876px;
+                border: none;
+                padding: 0 20px;
+            }
+        }
+        >div:nth-child(2){
+            display: flex;
+            gap: 20px;
+            >p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #A9A9A9;
+            }
+        }
+        >div:nth-child(3){
+            display: flex;
+            justify-content: space-between;
+            >p{
+                text-align: start;
+                width: 120px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #5C5C5C;
+                padding: 20px;
+            }
+            >p:nth-child(4){
+                width: 220px;
+            }
+        }
+    }
+}
