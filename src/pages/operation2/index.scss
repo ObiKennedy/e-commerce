@@ -1,0 +1,66 @@
+.inventory{
+    padding: 20px;
+    background: #ECECEC;
+    .buttons{
+        display: flex;
+        padding: 20px;
+        background: #FFFF;
+        width: 15%;
+        justify-content: space-between;
+        border-radius: 10px;
+        >a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #0D0D0D;
+            padding: 10px;
+            width: 50%;
+            text-decoration: none;
+        }
+        .active{
+            background: #E5F6F9;
+            border-radius: 10px;
+            color: #5542F6;
+            border-radius: 10px;
+        }
+    }
+    .tble{
+        background: #ffffff;
+        margin: 20px;
+        box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+            .tableHead{
+                display: flex;
+                gap: 70%;
+                padding: 20px;
+                >div{
+                    display: flex;
+                    text-transform: capitalize;
+                    gap: 5px;
+                    font-size: 16px;
+                    font-family: Monsterrat;
+                    font-weight: 600;
+                }
+                .month{
+                    display: flex;
+                    background: #ECECEC;
+                    margin: auto;
+                    padding: 5px;
+                    width:5vw;
+                    line-height: 20px;
+                    border-radius: 10px;
+                }
+                .filter{
+                    display: flex;
+                    background: #ECECEC;
+                    margin: auto;
+                    padding: 5px;
+                    border-radius: 10px;
+                    height: 4vh;
+
+                }
+            }
+    }
+}

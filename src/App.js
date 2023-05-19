@@ -10,6 +10,7 @@ import Product from './pages/products';
 import Categories from './pages/product/categories';
 import AddProduct from './pages/prodct/add';
 import Operation from './pages/operations';
+import OperationInventory from './pages/operation2';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/categories' element={<Categories/>}/>
             <Route path='/addproduct' element={<AddProduct/>}/>
             <Route path='/operation' element={<Operation/>}/>
+            <Route path='/operationinventory' element={<OperationInventory/>}/>
           </Routes>
         </Router>
     </div>

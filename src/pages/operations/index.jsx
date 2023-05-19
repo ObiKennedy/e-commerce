@@ -10,7 +10,7 @@ export default function Operation(){
             <Header name={'Operations'} user={'Abu'} position={'Salemanager'}/>
             <div className="buttons">
                 <Link to={'/operation'} className="active">Shipping</Link>
-                <Link to={''}>Inventory</Link>
+                <Link to={'/operationinventory'}>Inventory</Link>
             </div>
             <div className="table">
                 <div>
