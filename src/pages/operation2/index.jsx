@@ -16,7 +16,7 @@ export default function OperationInventory(){
             </div> 
             <div className="tble">
             <div className="tableHead">
-                <div>best selling products</div>
+                <div>Inventory</div>
                 <div>
                  <div className="month">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,6 +44,12 @@ export default function OperationInventory(){
                     </svg>
                   </div>
                   </div>
+            </div>
+            <div className="cat">
+                <p>All</p>
+                <p>In stock</p>
+                <p>Out of stock</p>
+                <p>Low on stock</p>
             </div>
             <div>
                 <TableHead/>
