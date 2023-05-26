@@ -11,6 +11,8 @@ import Categories from './pages/product/categories';
 import AddProduct from './pages/prodct/add';
 import Operation from './pages/operations';
 import OperationInventory from './pages/operation2';
+import Customer from './pages/customer';
+import Details from './pages/customer details';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path='/addproduct' element={<AddProduct/>}/>
             <Route path='/operation' element={<Operation/>}/>
             <Route path='/operationinventory' element={<OperationInventory/>}/>
+            <Route path='/customer' element={<Customer/>}/>
+            <Route path='/details' element={<Details/>}/>
           </Routes>
         </Router>
     </div>

@@ -1,0 +1,23 @@
+.list{
+    display: flex;
+    justify-content: space-between;  
+        >p{
+            span{
+                width: 30px;
+            }
+            text-align: left;
+            width: 100px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            color: #000000;
+         }
+         >p:nth-child(2){
+             width: 200px;
+         }
+         >p:nth-child(3){
+             width: 150px;
+         }
+}
