@@ -40,7 +40,7 @@ const options = {
 
     return(
         <div className="dashboard">
-            <Header name={'Dashboard'} user={'Abu'} position={'Salesmanager'}/>
+            <Header name={'Dashboard'} user={'Abu'} position={'Sales Manager'}/>
             <div className="info">
                 <div>
                     <svg width="50" height="35" viewBox="0 0 50 35" fill="none" xmlns="http://www.w3.org/2000/svg">
