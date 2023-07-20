@@ -1,15 +1,16 @@
 import React from "react";
 import './index.scss'
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function Header({name, user, position}){
     
     const [open, setOpen] = useState(false)
-    
+    const {pathname}=useLocation()
     return(
         <div className="header">
             <div>
-                <h2>{name}</h2>
+                <h2>{pathname.split('/')[1]||'Dashboard'}</h2>
             </div>
             <div>
                 <input type="text" placeholder="Search"/>
@@ -22,7 +23,7 @@ export default function Header({name, user, position}){
                         </svg>
                     </div>
                     <div>
-                        <img src="."/>
+                        <img src="." alt=""/>
                     </div>
                     <div>
                         <span>{user}</span>

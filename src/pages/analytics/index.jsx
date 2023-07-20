@@ -1,6 +1,5 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 import { TableHead } from "../../components/tableHead";
 import TableData from "../../components/tabledata";
 import { Link } from "react-router-dom";
@@ -8,7 +7,6 @@ import { Link } from "react-router-dom";
 export default function Analytics(){
     return(
         <div className="analytics">
-            <Header name={'Analytics'} user={'Abu'} position={'Salesmanager'}/>
             <div className="cont"> 
                 <div>
                     <div className="info">

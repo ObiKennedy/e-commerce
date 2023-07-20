@@ -12,7 +12,7 @@ export default function SalesManager({Name}){
                 <span>Settings</span>
             </div>
             <div>
-                <div><img src="/"/></div>
+                <div className="pic"><img src="/"/></div>
                 <div className="name">
                     <h5>{Name}</h5>
                     <span>Sales Manager</span>

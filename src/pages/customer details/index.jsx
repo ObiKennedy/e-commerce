@@ -1,11 +1,9 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 
 export default function Details(){
     return(
         <div className="details">
-            <Header position={'Salesmanager'} name={'Customer'} user={'Abu'}/>
             <div className="back">
                 <div className="head">
                     <h2>Customer details</h2>

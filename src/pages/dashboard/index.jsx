@@ -1,6 +1,5 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 import { useRef } from "react";
 //import { Line } from "react-chartjs-2";
 //import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement, scales } from "chart.js";
@@ -40,7 +39,6 @@ const options = {
 
     return(
         <div className="dashboard">
-            <Header name={'Dashboard'} user={'Abu'} position={'Sales Manager'}/>
             <div className="info">
                 <div>
                     <svg width="50" height="35" viewBox="0 0 50 35" fill="none" xmlns="http://www.w3.org/2000/svg">
