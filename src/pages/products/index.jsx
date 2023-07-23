@@ -1,13 +1,11 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 import { Link } from "react-router-dom";
 import ProductList from "../../components/productList";
 
 export default function Product(){
     return(
         <div className="products">
-            <Header name={'Product'} user={'Abu'} position={'Salesmanager'}/>
             <div className="heading"> 
                 <div>
                     <Link to={'/product'} className="active">All products</Link>

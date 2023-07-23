@@ -3,15 +3,16 @@
     padding: 20px;
     gap: 100px;
     width: 95%;
-    background: transparent;
+    background: #F5F5F5;
     >div{
         display: flex;
         gap: 5px;
         h2{
             font-weight: 600;
             font-size: 24px;
-            font-family: Monsterrat;
+            font-family: Montserrat;
             line-height: 29.26px;
+            text-transform: capitalize;
         }
         input{
             width: 40vw;

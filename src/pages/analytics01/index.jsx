@@ -1,11 +1,9 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 
 export default function ALink(){
     return(
         <div className="Alink">
-            <Header name={'Analytics'} user={'Abu'} position={'Salesmanager'}/>
             <div className="container">
                 <div className="info">
                     <div>

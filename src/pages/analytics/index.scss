@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
 .analytics{
     padding: 20px;
-    background: #EDEDED;
+    // background: #EDEDED;
     width: 100%;
     >div{
         display: flex;
@@ -17,13 +24,13 @@
                     border-radius: 20px;
                     h6{
                         font-size: 16px;
-                        font-family: Monstrrat;
+                        font-family: Montserrat;
                         font-weight: 500;
                     }
                     .numb{
                         font-size: 20px;
                         font-weight: 600;
-                        font-family: Monsterrat;
+                        font-family: Montserrat;
                         line-height: 24px;
                         color: #000;
                     }

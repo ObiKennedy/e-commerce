@@ -13,13 +13,16 @@ import Operation from './pages/operations';
 import OperationInventory from './pages/operation2';
 import Customer from './pages/customer';
 import Details from './pages/customer details';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
         <Router>
           <NavBar/>
-          <Routes>
+          <div>
+             <Header name={'Dashboard'} user={'Abu'} position={'Sales Manager'} />
+             <Routes>
             <Route path='/' element={<DashBoard/>}/>
             <Route path='/analytics' element={<Analytics/>}/>
             <Route path='/Alink' element={<ALink/>}/>
@@ -32,6 +35,8 @@ function App() {
             <Route path='/customer' element={<Customer/>}/>
             <Route path='/details' element={<Details/>}/>
           </Routes>
+          </div>
+          
         </Router>
     </div>
   );

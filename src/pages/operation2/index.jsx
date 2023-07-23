@@ -1,7 +1,6 @@
 import React from "react";
 import './index.scss'
 import Operation from "../operations";
-import Header from "../../components/header";
 import { Link } from "react-router-dom";
 import TableData from "../../components/tabledata";
 import { TableHead } from "../../components/tableHead";
@@ -9,7 +8,6 @@ import { TableHead } from "../../components/tableHead";
 export default function OperationInventory(){
     return(
         <div className="inventory">
-            <Header name={'Operation'} position={'Salesmanager'} user={'Abu'}/>
             <div className="buttons">
                 <Link to={'/operation'}>Shipping</Link>
                 <Link to={'/operationinventory'} className="active">Inventory</Link>
