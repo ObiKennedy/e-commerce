@@ -1,11 +1,9 @@
 import React from "react";
 import './index.scss'
-import Header from "../../../components/header";
 
 export default function AddProduct(){
     return(
         <div className="addproducts">
-            <Header name={'Products'} position={'Salesmanager'} user={'Abu'}/>
             <div>
                 <span>
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

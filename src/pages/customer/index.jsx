@@ -1,13 +1,11 @@
 import React from "react";
 import './index.scss'
-import Header from '../../components/header'
 import List from "../../components/customerList";
 import { Link } from "react-router-dom";
 
 export default function Customer(){
     return(
         <div className="customer">
-            <Header position={'Salesmanager'} name={'Customer'} user={'Abu'}/>
             <div className="main">
                 <div>
                     <h2>All Customer</h2>

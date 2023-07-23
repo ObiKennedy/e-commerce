@@ -1,13 +1,11 @@
 import React from "react";
 import './index.scss'
-import Header from "../../components/header";
 import { Link } from "react-router-dom";
 import OrderTable from "../../components/orderTable";
 
 export default function Operation(){
     return(
         <div className="operation">
-            <Header name={'Operations'} user={'Abu'} position={'Salemanager'}/>
             <div className="buttons">
                 <Link to={'/operation'} className="active">Shipping</Link>
                 <Link to={'/operationinventory'}>Inventory</Link>

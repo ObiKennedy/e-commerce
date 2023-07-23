@@ -1,12 +1,10 @@
 import React from "react";
 import './index.scss'
-import Header from "../../../components/header";
 import { Link } from "react-router-dom";
 
 export default function Categories(){
     return(
         <div className="categories">
-            <Header name={'Products'} position={'Salesmanger'} user={'Abu'}/>
             <div className="heading"> 
                 <div>
                     <Link to={'/product'}>All products</Link>
