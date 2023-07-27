@@ -5,6 +5,20 @@
     .container{
         display: flex;
         flex-direction: column;
+        .top{
+            display: flex;
+            justify-content: space-between;
+            button{
+                padding: 13px 26px;
+                background: #DF0000;
+                color: #EDEDED;
+                font-family: 'Montserrat';
+                font-weight: 500;
+                border-radius: 10px;
+                height: 42px;
+                border: none;
+            }
+        }
         .info{
             display: flex;
             gap: 20px;
