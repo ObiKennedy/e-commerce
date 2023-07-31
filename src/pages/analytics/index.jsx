@@ -125,7 +125,7 @@ export default function Analytics(){
                         </svg>
                         <div className="links">
                             <h4>Links</h4>
-                            <Link to={'/Alink'}>Link 01</Link>
+                            <Link to={'/Links'}>Link 01</Link>
                             <Link>Link 02</Link>
                             <Link>Link 03</Link>
                             <Link>Link 04</Link>

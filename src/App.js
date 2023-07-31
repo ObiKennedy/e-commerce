@@ -10,7 +10,7 @@ import Product from './pages/products';
 import Categories from './pages/product/categories';
 import AddProduct from './pages/prodct/add';
 import Operation from './pages/operations';
-import OperationInventory from './pages/operation2';
+import Operations from './pages/operation2';
 import Customer from './pages/customer';
 import Details from './pages/customer details';
 import Header from './components/header';
@@ -24,16 +24,16 @@ function App() {
              <Header name={'Dashboard'} user={'Abu'} position={'Sales Manager'} />
              <Routes>
             <Route path='/' element={<DashBoard/>}/>
-            <Route path='/analytics' element={<Analytics/>}/>
-            <Route path='/Alink' element={<ALink/>}/>
-            <Route path='/orders' element={<Orders/>}/>
-            <Route path='/product' element={<Product/>}/>
-            <Route path='/categories' element={<Categories/>}/>
-            <Route path='/addproduct' element={<AddProduct/>}/>
+            <Route path='/Analytics' element={<Analytics/>}/>
+            <Route path='/Links' element={<ALink/>}/>
+            <Route path='/Orders' element={<Orders/>}/>
+            <Route path='/Product' element={<Product/>}/>
+            <Route path='/Categories' element={<Categories/>}/>
+            <Route path='/Products' element={<AddProduct/>}/>
             <Route path='/operation' element={<Operation/>}/>
-            <Route path='/operationinventory' element={<OperationInventory/>}/>
-            <Route path='/customer' element={<Customer/>}/>
-            <Route path='/details' element={<Details/>}/>
+            <Route path='/Operations' element={<Operations/>}/>
+            <Route path='/Customer' element={<Customer/>}/>
+            <Route path='/Details' element={<Details/>}/>
           </Routes>
           </div>
           
