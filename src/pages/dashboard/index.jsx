@@ -110,7 +110,7 @@ const options = {
             </div>
             <div className="charts">
                 <div className="bar-chart">
-                   
+                 
                 </div>
                 <div className="pie">
                     
@@ -121,23 +121,7 @@ const options = {
                 <div>best selling products</div>
                 <div>
                  <div className="month">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.1676 4.39506V3.06006H15.6676V4.39506H8.29506V3.06006H6.79506V4.39506H2.12256V21.6901H21.7501V4.39506H17.1676ZM20.2501 20.1901H3.62256V10.8676H20.2501V20.1901ZM3.62256 9.36756V5.89506H6.79506V7.23006H8.29506V5.89506H15.6676V7.23006H17.1676V5.89506H20.2501V9.36756H3.62256Z" fill="#0D0D0D"/>
-                        <path d="M11.505 11.9399H10.02V13.4399H11.505V11.9399Z" fill="#0D0D0D"/>
-                        <path d="M8.96986 14.775H7.48486V16.275H8.96986V14.775Z" fill="#0D0D0D"/>
-                        <path d="M11.505 14.775H10.02V16.275H11.505V14.775Z" fill="#0D0D0D"/>
-                        <path d="M6.42738 14.775H4.94238V16.275H6.42738V14.775Z" fill="#0D0D0D"/>
-                        <path d="M8.96986 17.6176H7.48486V19.1176H8.96986V17.6176Z" fill="#0D0D0D"/>
-                        <path d="M11.505 17.6176H10.02V19.1176H11.505V17.6176Z" fill="#0D0D0D"/>
-                        <path d="M6.42738 17.6176H4.94238V19.1176H6.42738V17.6176Z" fill="#0D0D0D"/>
-                        <path d="M16.6051 11.9399H15.1201V13.4399H16.6051V11.9399Z" fill="#0D0D0D"/>
-                        <path d="M19.1398 11.9399H17.6548V13.4399H19.1398V11.9399Z" fill="#0D0D0D"/>
-                        <path d="M14.0551 11.9399H12.5776V13.4399H14.0551V11.9399Z" fill="#0D0D0D"/>
-                        <path d="M16.6051 14.775H15.1201V16.275H16.6051V14.775Z" fill="#0D0D0D"/>
-                        <path d="M19.1398 14.775H17.6548V16.275H19.1398V14.775Z" fill="#0D0D0D"/>
-                        <path d="M14.0551 14.775H12.5776V16.275H14.0551V14.775Z" fill="#0D0D0D"/>
-                        <path d="M14.0551 17.6176H12.5776V19.1176H14.0551V17.6176Z" fill="#0D0D0D"/>
-                    </svg> 
+                    
                     <div>May</div>
                   </div>
                   <div className="filter">

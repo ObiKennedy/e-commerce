@@ -1,92 +1,138 @@
 .addproducts{
-    padding: 20px;
-    background: #ECECEC;
-    >div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    padding: 20px 130px;
+    margin: 10px 35px;
+    >div:first-child{
         display: flex;
-        justify-content: flex-start;
+        padding: 12px;
         gap: 20px;
-        padding: 20px;
         >span{
-            background: #b1adad;
+            background: #EDEDED;
+            width: 40px;
+            height: 80px;
+            display: flex;
+            padding: 0 20px;
+            align-items: center;
             border-radius: 10px;
-            padding: 22px;
             cursor: pointer;
         }
         >input{
-            border-bottom: 1px dashed #A9A9A9;
-            border-left: none;
-            border-right: none;
-            border-top: none;
-            background: #a9a9a900;
-            font-family: 'Montserrat';
-            font-style: normal;
+            background: transparent;
+            border: none;
+            border-bottom: 1px dotted rgb(0, 0, 0);
+            height: 27px;
+            margin-top: 30px;
+            outline: none;
+            font-size: 14px;
             font-weight: 600;
-            font-size: 24px;
-            line-height: 29px;
-            color: #A9A9A9;
+            text-align: left;
+            font-family: 'Monsterrat';
+            line-height: 17.07px;
         }
     }
-    >div:nth-child(3){
-        padding: 20px;
+    >div:nth-child(2){
         display: flex;
         flex-direction: column;
-        text-align: start;
+        padding: 20px 30px;
+        gap: 20px;
+        >h3{
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+            font-family: 'Monsterrat';
+            line-height: 17.07px;
+        }
         >div{
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 30px;
+            //padding: 10px 0;
+            align-items: flex-start;
             >div{
                 display: flex;
-                gap: 20px;
-                >div{
+                gap: 30px;
+                width: 50vw;
+                span{
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
-                    >label{
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 500;
+                    gap: 12px;
+                    width: 100%;
+                    >p{
+                        font-family: 'Monsterrat';
                         font-size: 13px;
-                        line-height: 16px;
+                        font-weight: 500;
+                        text-align: start;
+                        line-height: 15.85px;
                         color: #5C5C5C;
                     }
                     >input{
-                        width: 25vw;
-                        height: 46px;
-                        background: #FFFFFF;
-                        border-radius: 10px;
+                        outline: none;
                         border: none;
-                        padding: 20px;
-                        font-family: 'Montserrat';
-                        font-style: normal;
+                        border-radius: 10px;
+                        width: 100%;
+                        height: 46px;
+                        padding: 5px;
+                        font-family: 'Monsterrat';
+                        font-size: 13px;
                         font-weight: 500;
-                        font-size: 12px;
-                        line-height: 15px
+                        text-align: start;
+                        line-height: 15.85px;
+                        color: #5C5C5C;
+                    }
+                }
+                .biginput{
+                    height: 300px;
+                    >input{
+                        height: 100%;
                     }
                 }
             }
-            .description{
-                display: flex;
-                flex-direction: column;
-                >label{
+        }
+    }
+    >div:last-child{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 30px;
+        >h3{
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+            font-family: 'Monsterrat';
+            line-height: 17.07px;
+        }
+        >div{
+            display: flex;
+            gap: 20px;
+            >span{
+                width: 100px;
+                height: 100px;
+                border-radius: 10px;
+                border: 1px dotted #5542F6;
+                padding: 20px;
+                background:  #FFFFFF;
+                >p{
                     font-family: 'Montserrat';
-                    font-style: normal;
+                    font-size: 10px;
                     font-weight: 500;
-                    font-size: 12px;
-                    line-height: 15px;
-                }  
-                >input{
-                    width: 56vw;
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 12px;
-                    line-height: 15px;
-                    border: none;
-                    height: 20vw;
-                    border-radius: 10px;
-                }                 
+                    line-height: 12px;
+                    text-align: center;
+                }
             }
+        }
+        >button{
+            width: 270px;
+            height: 42px;
+            border-radius: 10px;
+            border: none;
+            background: #5542F6;
+            color: #FFFFFF;
+            font-size: 13px;
+            font-family: 600px;
+            font-family: 'Montserrat';
         }
     }
 }

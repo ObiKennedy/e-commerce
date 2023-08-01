@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import TableData from "../../components/tabledata";
 import { TableHead } from "../../components/tableHead";
 
-export default function OperationInventory(){
+export default function Operations(){
     return(
         <div className="inventory">
             <div className="buttons">
                 <Link to={'/operation'}>Shipping</Link>
-                <Link to={'/operationinventory'} className="active">Inventory</Link>
+                <Link to={'/Operations'} className="active">Inventory</Link>
             </div> 
             <div className="tble">
             <div className="tableHead">

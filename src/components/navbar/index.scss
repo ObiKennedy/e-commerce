@@ -12,6 +12,7 @@
         max-height: 100vh;
         overflow: scroll;
         background-color: #F5F5F5;
+        padding:1em;
     }
     .logo{
         display: flex;
@@ -43,10 +44,9 @@
                 width: 30%;
             }
         }
-        .active{
-            background: #E5F6F9;
-            color: #5542F6;
-            padding: 20px;
+        .isOpen{
+            background: #5542F6;
+            color: #FFFFFF;
         }
     }
 }
