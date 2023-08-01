@@ -1,9 +1,10 @@
 .header{
     display: flex;
-    padding: 20px;
+    // padding: 20px;
     gap: 100px;
     width: 95%;
     background: #F5F5F5;
+    align-items: center;
     >div{
         display: flex;
         gap: 5px;

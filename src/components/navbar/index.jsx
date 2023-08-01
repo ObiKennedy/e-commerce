@@ -4,7 +4,7 @@ import SalesManager from "../salesmanager";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from 'react';
 import Logo from "../../assets/svg/Logo";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 
 export const NavBar = () => {

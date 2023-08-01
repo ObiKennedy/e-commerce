@@ -1,0 +1,184 @@
+.tables {
+  display: flex;
+  justify-content: space-between;
+}
+.tables > p {
+  width: 120px;
+  text-align: start;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 20px;
+  height: 12px;
+}
+.tables > p:nth-child(4) {
+  width: 220px;
+}
+.tables .pending {
+  background: #F8F8F8;
+  border-radius: 19px;
+  color: #5C5C5C;
+  text-transform: capitalize;
+}
+.tables .shipped {
+  background: #FFFCF2;
+  border-radius: 19px;
+  color: #FFDB58;
+  text-transform: capitalize;
+}
+.tables .delivered {
+  background: #DFFFE8;
+  border-radius: 19px;
+  color: #3EC90D;
+  text-transform: capitalize;
+}
+.tables .cancelled {
+  background: #FFF2F2;
+  border-radius: 19px;
+  color: #DF0000;
+  text-transform: capitalize;
+}/*# sourceMappingURL=index.css.map */;
+  gap: 20px;
+}
+.addproducts > div:nth-child(3) > div > div {
+  display: flex;
+  gap: 20px;
+}
+.addproducts > div:nth-child(3) > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.addproducts > div:nth-child(3) > div > div > div > label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #5C5C5C;
+}
+.addproducts > div:nth-child(3) > div > div > div > input {
+  width: 25vw;
+  height: 46px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.addproducts > div:nth-child(3) > div .description {
+  display: flex;
+  flex-direction: column;
+}
+.addproducts > div:nth-child(3) > div .description > label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.addproducts > div:nth-child(3) > div .description > input {
+  width: 56vw;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  height: 20vw;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */ 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+}
+.Alink .container .charts .chartlist {
+  padding: 20px;
+}
+.Alink .container .charts .chartlist ul h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Alink .container .charts .chartlist ul li {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.Alink .container .charts .chartlist ul li > div:first-child {
+  width: 200px;
+}
+.Alink .container .charts .chartlist ul li > div {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.Alink .container .charts .chartlist ul p {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.Alink .container .charts .chartlist ul p div:first-child {
+  width: 200px;
+}
+.Alink .container .charts .chartlist ul p div {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5C5C5C;
+}
+.Alink .lstcht {
+  width: 30%;
+  text-align: start;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+}
+.Alink .lstcht h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Alink .lstcht > p {
+  color: #ACACAC;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.Alink .lstcht > div {
+  display: flex;
+  gap: 20px;
+}
+.Alink .lstcht > div > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #5C5C5C;
+}/*# sourceMappingURL=index.css.map */
