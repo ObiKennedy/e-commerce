@@ -1,34 +1,23 @@
 .orders{
-    padding: 20px;
+    padding: 20px 30px;
+    margin: auto;
     background: #ECECEC;
-    width: 100%;
+    width: 94%;
     .top{
         display: flex;
         justify-content: space-between;
-        >div:first-child{
-            display: flex;
-            align-items: flex-start;
-            padding: 17px;
-            gap: 10px;
-            background: #FFFFFF;
-            border-radius: 10px;
-            height: 10px;
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 500;
-                line-height: 20px;
-        }
         >div:last-child{      
             background: #5542F6;
             border-radius: 10px;
             display: flex;
-            padding: 10px 17px;
+            padding: 13px 26px;
             gap: 10px;
             color: #FFFFFF;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 500;
             line-height: 20px;
+            height: 22px;
         }
     }
     .set{

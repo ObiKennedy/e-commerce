@@ -3,10 +3,12 @@ import './index.scss'
 import { TableHead } from "../../components/tableHead";
 import TableData from "../../components/tabledata";
 import { Link } from "react-router-dom";
+import DateSelect from "../../components/dateSelect";
 
 export default function Analytics(){
     return(
         <div className="analytics">
+            <DateSelect/>
             <div className="cont"> 
                 <div>
                     <div className="info">
@@ -123,11 +125,11 @@ export default function Analytics(){
                         </svg>
                         <div className="links">
                             <h4>Links</h4>
-                            <Link to={'/Alink'} className="grey">Link 01</Link>
+                            <Link to={'/Links'}>Link 01</Link>
                             <Link>Link 02</Link>
-                            <Link className="grey">Link 03</Link>
+                            <Link>Link 03</Link>
                             <Link>Link 04</Link>
-                            <Link className="grey">Link 05</Link>
+                            <Link>Link 05</Link>
                             <div>
                                 <span>View more</span>
                                 <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">

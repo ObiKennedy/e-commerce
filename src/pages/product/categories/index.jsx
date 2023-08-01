@@ -10,7 +10,7 @@ export default function Categories(){
                     <Link to={'/product'}>All products</Link>
                     <Link to={'/categories'} className="active">Categories</Link>
                 </div>
-                <div><Link to={'/addproduct'}>+ Add Products</Link></div>
+                <div><Link to={'/Products'}>+ Add Products</Link></div>
             </div>
             <div>
                 <div>

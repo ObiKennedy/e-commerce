@@ -8,7 +8,7 @@ export default function Operation(){
         <div className="operation">
             <div className="buttons">
                 <Link to={'/operation'} className="active">Shipping</Link>
-                <Link to={'/operationinventory'}>Inventory</Link>
+                <Link to={'/Operations'}>Inventory</Link>
             </div>
             <div className="table">
                 <div>

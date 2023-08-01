@@ -1,10 +1,15 @@
 import React from "react";
 import './index.scss'
+import DateSelect from "../../components/dateSelect";
 
 export default function ALink(){
     return(
         <div className="Alink">
             <div className="container">
+                <div className="top">
+                    <DateSelect/>
+                    <button>Disable Link</button>
+                </div>
                 <div className="info">
                     <div>
                         <svg width="50" height="35" viewBox="0 0 50 35" fill="none" xmlns="http://www.w3.org/2000/svg">
