@@ -32,7 +32,7 @@ function App() {
             <Route path='/Products' element={<AddProduct/>}/>
             <Route path='/operation' element={<Operation/>}/>
             <Route path='/Operations' element={<Operations/>}/>
-            <Route path='/Customer' element={<Customer/>}/>
+            <Route path='/Customers' element={<Customer/>}/>
             <Route path='/Details' element={<Details/>}/>
           </Routes>
           </div>
