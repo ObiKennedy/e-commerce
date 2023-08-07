@@ -11,7 +11,7 @@ export default function Product(){
                     <Link to={'/product'} className="active">All products</Link>
                     <Link to={'/categories'}>Categories</Link>
                 </div>
-                <div><Link to={'/addproduct'}>+ Add Products</Link></div>
+                <div><Link to={'/Products'}>+ Add Products</Link></div>
             </div>
             <div className="tab">
                 <div>
