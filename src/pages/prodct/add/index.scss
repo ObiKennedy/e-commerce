@@ -1,23 +1,29 @@
 .addproducts{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: fit-content;
     align-items: flex-start;
-    padding: 20px 130px;
+    padding: 20px 120px;
     margin: 10px 35px;
     >div:first-child{
         display: flex;
         padding: 12px;
         gap: 20px;
-        >span{
-            background: #EDEDED;
-            width: 40px;
+        >button{
+            width: 80px;
             height: 80px;
-            display: flex;
             padding: 0 20px;
             align-items: center;
             border-radius: 10px;
             cursor: pointer;
+            border: none;
+            >div{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
         >input{
             background: transparent;
@@ -107,19 +113,22 @@
         >div{
             display: flex;
             gap: 20px;
-            >span{
-                width: 100px;
-                height: 100px;
-                border-radius: 10px;
+            >button{
+                width: 120px;
+                height: 120px;
                 border: 1px dotted #5542F6;
-                padding: 20px;
-                background:  #FFFFFF;
-                >p{
-                    font-family: 'Montserrat';
+                border-radius: 10px;
+                background: #FFFFFF;
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: #5542F6;
+                    gap: 5px;
+                    font-family: 'monsterrat';
                     font-size: 10px;
                     font-weight: 500;
-                    line-height: 12px;
-                    text-align: center;
+                    line-height: 12.99px;
                 }
             }
         }
