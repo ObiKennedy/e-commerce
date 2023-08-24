@@ -3,38 +3,49 @@
     .info{
         display: flex;
         gap: 30px;
-        padding: 20px;
+        padding: 20px 0;
         margin: auto;
         align-items: center;
         >div{
             background: #ffffff;
-            padding: 10px;
+            padding: 20px;
             width: 20%;
             border-radius: 20px;
             display: flex;
             text-align: start;
             flex-direction: column;
+            gap: 14px;
             h6{
                 margin: 2px;
-                font-family: monsterrat;
+                font-family: Montserrat;
                 font-weight: 500;
                 font-size: 16px;
             }
             p{
-                font-family: Monsterrat;
+                font-family: Montserrat;
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 600;
+                margin: 0;
             }
         }
     }
     .charts{
         display: flex;
         padding: 20px;
+        display: flex;
+        gap: 32px;
+
+        >div{
+            width: 45%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+        }
     }
     .tble{
         background: #ffffff;
-        margin: 20px;
+        margin: 20px 0;
         box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
         border-radius: 20px;
             .tableHead{
@@ -46,7 +57,7 @@
                     text-transform: capitalize;
                     gap: 5px;
                     font-size: 16px;
-                    font-family: Monsterrat;
+                    font-family: Montserrat;
                     font-weight: 600;
                 }
                 .month{
